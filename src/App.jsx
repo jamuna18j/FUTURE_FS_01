@@ -55,7 +55,7 @@ function App() {
       {/* NAVBAR */}
       <nav className="navbar">
         <a href="#home" className="logo">
-          JAMUNA<span>.</span>
+          JAMUNA J
         </a>
 
         <div className="nav-links">
