@@ -71,9 +71,10 @@ const startServer = async () => {
   if (!mongoUri) {
     throw new Error("MONGO_URI is required. Set it in backend/.env.");
   }
+  const PORT = process.env.PORT || 5000;
 
   app.listen(PORT, () => {
-    console.log(`Server running on http://localhost:${PORT}`);
+    console.log(`Server running on port ${PORT}`);
   });
 
   mongoose.connect(mongoUri, {
