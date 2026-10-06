@@ -101,7 +101,7 @@ function App() {
               download
               className="secondary-btn"
             >
-              Download Resume
+              Download resume
             </a>
           </div>
 
