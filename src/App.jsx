@@ -23,7 +23,7 @@ function App() {
     setStatus("Sending...");
 
     try {
-      const response = await fetch(https://future-fs-01-1ljt.onrender.com/api/contact",{
+      const response = await fetch("https://future-fs-01-1ljt.onrender.com/api/contact",{
         method: "POST",
         headers: {
           "Content-Type": "application/json",
